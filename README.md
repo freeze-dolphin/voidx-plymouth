@@ -7,3 +7,11 @@ The image resources are originally downloaded from <a href="https://www.gnome-lo
 
 And I made some slight modifications on it.
 
+## Installation
+
+Simply copy `voidx` folder into `/usr/share/plymouth/themes`
+
+And use update your plymouth theme setting
+```bash
+$ sudo plymouth-set-default-theme -R voidx
+```
